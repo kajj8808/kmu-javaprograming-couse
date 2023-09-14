@@ -1,5 +1,3 @@
-#
+# 자바프로그래밍 Repasitory
 
-# Webstruct Repasitory
-
-계명대학교 Webstruct 에 대한 git 저장소 입니다.
+계명대학교 자바프로그래밍 에 대한 git 저장소 입니다.
