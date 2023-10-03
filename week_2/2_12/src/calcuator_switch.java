@@ -2,13 +2,13 @@ import java.util.Scanner;
 
 public class calcuator_switch {
     public static void main(String[] args) throws Exception {
-        double num1, num2, result = 0;
+        float num1, num2, result = 0;
         char symbol;
         Scanner scanner = new Scanner(System.in);
         System.out.print("num1 : ");
-        num1 = scanner.nextDouble();
+        num1 = scanner.nextFloat();
         System.out.print("num2 : ");
-        num2 = scanner.nextDouble();
+        num2 = scanner.nextFloat();
         System.out.print("choice ones ( + , - , * , / ) : ");
         symbol = scanner.next().charAt(0);
         scanner.close();

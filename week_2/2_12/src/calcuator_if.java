@@ -1,14 +1,14 @@
 import java.util.Scanner;
 
-public class Classname {
+public class calcuator_if {
     public static void main(String[] args) throws Exception {
-        double num1, num2, result = 0.0;
+        float num1, num2, result = 0;
         char symbol;
         Scanner scanner = new Scanner(System.in);
         System.out.print("num1 : ");
-        num1 = scanner.nextDouble();
+        num1 = scanner.nextFloat();
         System.out.print("num2 : ");
-        num2 = scanner.nextDouble();
+        num2 = scanner.nextFloat();
         System.out.print("choice ones ( + , - , * , / ) : ");
         symbol = scanner.next().charAt(0);
         scanner.close();
